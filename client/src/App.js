@@ -9,7 +9,7 @@ import Registration  from './pages/Registration';
 function App() {
   return (
     <div className="App">
-      <Router>
+      
         <div className='navbar'>
           <NavLink to="/createPost.js" replace>Create A  Post</NavLink>
           <Link to="/">Go Home</Link>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Login" exact component={Login} />
           <Route path="/Registration" exact component={Registration} />
         </Switch>
-      </Router>
+      
     </div>
   );
 }
